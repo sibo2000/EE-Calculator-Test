@@ -31,6 +31,7 @@ class App extends Component {
     }
 
     // If operation is not yet set, append to number value
+    // Could be more elegant!
     if (this.state.operation === undefined) {
       const copy = this.state.value1;
       copy.push(val);
