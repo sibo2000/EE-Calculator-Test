@@ -1,17 +1,17 @@
-@import './latofonts.css';
+@import "./latofonts.css";
 
 :root {
-    --color-blue: #1795d4;
-    --color-blue-dark: #ec007c;
-    --color-blue-light: #dff9ff;
-    --color-grey: #373d45;
-    --color-grey-light: #f4f4f4;
-    --color-yellow: #fed800;
-    --color-white: #fff;
-    --space-m: 20px;
-    --space-s: 10px;
-    --space-xs: 5px;
-    --corners: 4px;
-    --font-primary: "LatoWeb", sans-serif;
-    --font-bold: "LatoWebBold", sans-serif;
+  --color-blue: #1795d4;
+  --color-blue-dark: #ec007c;
+  --color-blue-light: #dff9ff;
+  --color-grey: #373d45;
+  --color-grey-light: #f4f4f4;
+  --color-yellow: #fed800;
+  --color-white: #fff;
+  --space-m: 20px;
+  --space-s: 10px;
+  --space-xs: 5px;
+  --corners: 4px;
+  --font-primary: "LatoWeb", sans-serif;
+  --font-bold: "LatoWebBold", sans-serif;
 }

@@ -1,40 +1,39 @@
-
-@import './style/variables.css';
+@import "./style/variables.css";
 h1 {
-    padding-bottom: var(--space-m);
-    color: var(--color-grey-dark);
+  padding-bottom: var(--space-m);
+  color: var(--color-grey-dark);
 }
 
 a {
-    color: var(--color-blue-light);
+  color: var(--color-blue-light);
 }
 
 .logo {
-    height: 20px;
-    float: left;
+  height: 20px;
+  float: left;
 }
 
 .app {
-    display: grid;
-    grid-template-rows: max-content;
-    height: 100vh;
+  display: grid;
+  grid-template-rows: max-content;
+  height: 100vh;
 }
 
 header {
-    background-color: var(--color-blue);
-    padding: var(--space-m);
-    color: var(--color-blue-light);
-    border-bottom: 1px solid var(--color-blue-light);
-    text-align: center;
+  background-color: var(--color-blue);
+  padding: var(--space-m);
+  color: var(--color-blue-light);
+  border-bottom: 1px solid var(--color-blue-light);
+  text-align: center;
 }
 
 main {
-    margin-top: var(--space-m);
-    justify-self: center;
+  margin-top: var(--space-m);
+  justify-self: center;
 }
 
 footer {
-    background: var(--color-grey);
-    color: var(--color-white);
-    padding: var(--space-s);
+  background: var(--color-grey);
+  color: var(--color-white);
+  padding: var(--space-s);
 }

@@ -1,36 +1,36 @@
-@import '../style/variables.css';
+@import "../style/variables.css";
 
 .Calculator {
-    display: grid;
-    grid-gap: var(--space-s);
-    grid-template-columns: repeat(4, 64px);
-    grid-template-rows: repeat(6);
-    width: fit-content;
-    background: var(--color-grey);
-    padding: var(--space-m);
-    border-radius: var(--corners);
-    margin: auto;
+  display: grid;
+  grid-gap: var(--space-s);
+  grid-template-columns: repeat(4, 64px);
+  grid-template-rows: repeat(6);
+  width: fit-content;
+  background: var(--color-grey);
+  padding: var(--space-m);
+  border-radius: var(--corners);
+  margin: auto;
 }
 
 .Calculator > * {
-    border-radius: var(--corners);
+  border-radius: var(--corners);
 }
 
 .display {
-    padding: var(--space-m);
-    grid-column-start: 1;
-    grid-column-end: 5;
-    background: var(--color-grey-light);
-    text-align: right;
+  padding: var(--space-m);
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background: var(--color-grey-light);
+  text-align: right;
 }
 
 button {
-    min-height: 50px;
-    border: none;
-    background: var(--color-blue-light);
-    color: var(--color-grey);
-    font: var(--font-bold);
-    font-weight: bold;
+  min-height: 50px;
+  border: none;
+  background: var(--color-blue-light);
+  color: var(--color-grey);
+  font: var(--font-bold);
+  font-weight: bold;
 }
 
 .divide,
@@ -38,19 +38,18 @@ button {
 .subtract,
 .add,
 .allclear {
-    background: var(--color-blue);
-    color: var(--color-blue-light);
+  background: var(--color-blue);
+  color: var(--color-blue-light);
 }
 
 .allclear {
-    grid-column-start: 3;
-    grid-column-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .equals {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    background: var(--color-yellow);
-    color: var(--color-grey);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background: var(--color-yellow);
+  color: var(--color-grey);
 }
-
