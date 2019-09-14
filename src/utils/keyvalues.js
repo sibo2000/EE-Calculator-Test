@@ -7,7 +7,7 @@ export default [
     { name: '4', val: 4 },
     { name: 5, val: 5 },
     { name: 6, val: 6 },
-    { name: 'multiply', val: 'X' },
+    { name: 'multiply', val: 'x' },
     { name: '1', val: 1 },
     { name: '2', val: 2 },
     { name: '3', val: 3 },
