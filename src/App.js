@@ -15,7 +15,7 @@ class App extends Component {
           <Calculator />
         </main>
         <footer>
-          Equal Experts Test | Simon Bowler | Code available on <a href="https://github.com/sibo2000/EE-Calculator-Test">Github</a>
+          <p>Equal Experts Test | Simon Bowler | Code available on <a href="https://github.com/sibo2000/EE-Calculator-Test">Github</a></p>
         </footer>
       </div>
     );
